@@ -7,4 +7,4 @@ FROM php:8.1-apache
 RUN a2enmod rewrite
 
 # Exposer le port 87
-EXPOSE 87
+EXPOSE 80
